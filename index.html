@@ -5,41 +5,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>DrDev // Front End Developer</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+  
+  <nav>
+    <div class="logo">
+      <img src="./images/DrDev-logo.png" alt="logo">
     </div>
-  </section>
+        
+        <ul class="topnav">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+    <a class="cta" href="#"><button>Contact</button></a>
+  </nav>
+  
+  <!-- hero banner -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <div class="hero-text-inner">
+        <h1>Satisfy your business with a cool web design!</h1>
+        <button type="button">Learn more</button>
+      </div>  
+    </div>
+  </div>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
+  <!-- Examples -->
+  <div class="row">
+    <div class="column" style="background-color:rgba(65, 0, 169, 0.8);">
+      <img src="./images/02-portfolio-1.jpg" style="width:100%">
       <h2>About Me</h2>
-    </section>
-
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
+      <p>Some text..</p>
+    </div>
+    
+    <div class="column" style="background-color:rgba(65, 0, 169, 0.8);">
+      <img src="./images/02-portfolio-2.jpg" style="width:100%">
       <h2>Work</h2>
-    </section>
+      <p>Some text..</p>
+    </div>
+    
+    <div class="column" style="background-color:rgba(65, 0, 169, 0.8);">
+      <img src="./images/02-portfolio-3.jpg" style="width:100%">
+      <h2>Services</h2>
+      <p>Some text..</p>
+    </div>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
+    <div class="column" style="background-color:rgba(65, 0, 169, 0.8);">
+      <img src="./images/02-portfolio-4.jpg" style="width:100%">
+      <h2>Hobbies</h2>
+      <p>Some text..</p>
+    </div>
+    
+  </div>
 </body>
+
+<div class="footer">
+  <h2><button>Contact</button></h2>
+
+</div>
 
 </html>

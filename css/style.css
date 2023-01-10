@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  font-size: 80%;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  position: relative;
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo a {
+  background: rgb(132, 0, 169);
+  background-image: url(../images/DrDev-logo.png);
+  display: flexbox;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.logo img {
+  width: 100px;
+}
+
+li, a, button {
+  font-family:"Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fafafb;
+  text-decoration: none;
+}
+
+.topnav {
+  list-style: none;
+}
+
+.topnav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.topnav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.topnav li a:hover {
+  color:#7ed416;
+}
+
+button {
+  margin-left: 20px;
+  padding: 16px 25px;
+  background-color: rgb(2, 40, 18);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(65, 0, 169, 0.8);
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(3, 46, 32);
+  border: none;
+  border-radius: 50px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* The hero image */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap'); 
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+  text-align: right;
+  background: url(https://www.bacancytechnology.com/img/Dedicated-Developer-1/Dedicated-Developer-banner-1.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(37, 3, 91, 0.8);
+}
